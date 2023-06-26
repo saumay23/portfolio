@@ -13,6 +13,9 @@ const OpenSans = Open_Sans({ subsets: ["latin"] });
 export default function Home() {
   return (
     <div className="bg-[rgb(36,36,36)] text-white h-screen snap snap-y snap-mandatory scroll-smooth overflow-scroll scrollbar-hide z-0">
+      <head>
+        <title>My Protfolio</title>
+      </head>
       <Header />
       <section id="Profile" className="snap-start">
         <Profile />
