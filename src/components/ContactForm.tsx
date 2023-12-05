@@ -15,7 +15,7 @@ const ContactForm = (props: Props) => {
     formState: { errors },
   } = useForm<InputForm>();
   const SubmitForm = (data: InputForm) => {
-    window.location.href = `mailto:ksaumya1510@gmail.com?subject=${data?.subject}&body=Hi, my name is ${data?.firstname} ${data?.lastname}. ${data?.message}`;
+    window.location.href = `mailto:sk10882@nyu.edu?subject=${data?.subject}&body=Hi, my name is ${data?.firstname} ${data?.lastname}. ${data?.message}`;
   };
   return (
     <div className="relative flex h-screen overflow-hidden flex-col text-left space-y-10  max-w-full mx-auto px-10 justify-end pb-10   items-center">
@@ -31,11 +31,11 @@ const ContactForm = (props: Props) => {
       <div className="space-y-10">
         <div className="flex items-center justify-center space-x-5">
           <BsFillTelephoneFill className="fill-[#F7AB0A] w-6 h-6" />
-          <p>+91-9007095635</p>
+          <p>+1-(516)-968-1066</p>
         </div>
         <div className="flex items-center justify-center space-x-5">
           <BsEnvelope className="fill-[#F7AB0A] w-6 h-6" />
-          <p>ksaumya1510@gmail.com</p>
+          <p>sk10882@nyu.edu</p>
         </div>
       </div>
       <form
