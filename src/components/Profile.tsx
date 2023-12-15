@@ -7,7 +7,7 @@ type Props = {};
 
 const Profile = (props: Props) => {
   const [text, count] = useTypewriter({
-    words: ["Hi, I am Saumya "],
+    words: ["Hi, I am Saumay "],
     loop: true,
     delaySpeed: 2000,
   });
