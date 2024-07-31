@@ -9,8 +9,6 @@ import {
   SiPython,
   SiPostgresql,
   SiMongodb,
-  SiVuedotjs,
-  SiFlask,
   SiExpress,
   SiReact,
   SiNextdotjs,
@@ -221,18 +219,6 @@ export const data =
                 <SiNextdotjs />
               ),
               name: "Next.JS",
-            },
-            {
-              icon: (
-                <SiVuedotjs />
-              ),
-              name: "Vue.JS",
-            },
-            {
-              icon: (
-                <SiFlask />
-              ),
-              name: "Flask",
             },
             {
               icon: (
