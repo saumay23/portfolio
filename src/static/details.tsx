@@ -71,21 +71,6 @@ export const data =
           [
             {
               company:
-                "Highradius",
-              position:
-                "Software Developer Intern",
-              duration:
-                "1st August 2021 - 31st March 2022",
-              description:
-                [
-                  "Wrote and tested JavaScript code, reducing website load time by 25%",
-                  "Developed clean, maintainable, and scalable code, increasing development efficiency by 30%",
-                  "Tested and debugged web applications, resolving 95% of reported issues within 48 hours",
-                  "Created responsive design layouts using JavaScript, improving user engagement by 20%",
-                ],
-            },
-            {
-              company:
                 "Wiz Freight",
               position:
                 "Software Developer 1",
@@ -99,6 +84,21 @@ export const data =
                   "Achieved a 98% sprint completion rate in Agile development.",
                 ],
             },
+            {
+              company:
+                "Highradius",
+              position:
+                "Software Developer Intern",
+              duration:
+                "1st August 2021 - 31st March 2022",
+              description:
+                [
+                  "Wrote and tested JavaScript code, reducing website load time by 25%",
+                  "Developed clean, maintainable, and scalable code, increasing development efficiency by 30%",
+                  "Tested and debugged web applications, resolving 95% of reported issues within 48 hours",
+                  "Created responsive design layouts using JavaScript, improving user engagement by 20%",
+                ],
+            },
           ],
       },
     education:
@@ -107,22 +107,6 @@ export const data =
           "My Education",
         items:
           [
-            {
-              university:
-                "SRM Institute of Science and Technology",
-              degree:
-                "Bachelors of Technology in Computer Science",
-              duration:
-                "AUGUST 2018 -  JUNE 2022",
-              description:
-                [
-                  `Design and Analysis of Algorithms`,
-                  `Data Structures and Algorithms`,
-                  `Object Oriented Design and Programming`,
-                  `Database Management Systems`,
-                  ` Machine Learning`,
-                ],
-            },
             {
               university:
                 "New York University",
@@ -138,6 +122,22 @@ export const data =
                   `Information Technology & Data Analytics`,
                   `Database Design and Managements`,
                   `Data Mining and Warehousing`,
+                ],
+            },
+            {
+              university:
+                "SRM Institute of Science and Technology",
+              degree:
+                "Bachelors of Technology in Computer Science",
+              duration:
+                "AUGUST 2018 -  JUNE 2022",
+              description:
+                [
+                  `Design and Analysis of Algorithms`,
+                  `Data Structures and Algorithms`,
+                  `Object Oriented Design and Programming`,
+                  `Database Management Systems`,
+                  ` Machine Learning`,
                 ],
             },
           ],
@@ -277,7 +277,7 @@ export const projects =
         "Database Designing Project",
       title:
         "Spotify Database Modeling",
-      description: `This NYU group project aims to enhance Spotify's database management by improving data security and scalability. Key strategies include end-to-end encryption, strict access controls, real-time monitoring, security audits, distributed database architecture, load balancing, and caching mechanisms, ensuring optimal performance and responsiveness as Spotify's user base grows.`,
+      description: `This NYU project aims to enhance Spotify's database management by improving data security and scalability. Key strategies include end-to-end encryption, strict access controls, real-time monitoring, security audits, distributed database architecture, load balancing, and caching mechanisms, ensuring optimal performance and responsiveness as Spotify's user base grows.`,
       stack:
         [
           "Oracle Data Modeler",
