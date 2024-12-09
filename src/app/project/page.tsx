@@ -73,33 +73,11 @@ const Project =
                     project.description
                   }
                 </p>
-                <ul className="flex gap-4 ">
-                  {project.stack.map(
-                    (
-                      skill,
-                      index
-                    ) => {
-                      return (
-                        <li
-                          className="text-xl text-accent"
-                          key={
-                            index
-                          }
-                        >
-                          {
-                            skill
-                          }
-                          {index !==
-                            project
-                              .stack
-                              .length -
-                              1 &&
-                            ","}
-                        </li>
-                      );
-                    }
+                <p className="text-xl text-accent">
+                  {project.stack.join(
+                    ", "
                   )}
-                </ul>
+                </p>
                 <div className="border "></div>
                 <Link
                   target="_"
