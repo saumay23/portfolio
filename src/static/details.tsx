@@ -235,28 +235,6 @@ export const projects =
     {
       num: 1,
       category:
-        "Full Stack Project",
-      title:
-        "Job-Specific Resume Generator",
-      description:
-        "Developed a web application to generate tailored resumes from a default template based on job descriptions. The platform features a responsive interface built with Next.js, secure authentication via Google Auth, AI-powered resume customization using Together AI, and a Python backend for processing and PDF generation.",
-      stack:
-        [
-          "Next.js",
-          "Google Authentication OAuth",
-          "Together AI",
-          "Mongo DB",
-          "Python",
-        ],
-      image:
-        "/Images/resume.png",
-      isPDF:
-        false,
-      link: "https://tailorizor.vercel.app",
-    },
-    {
-      num: 2,
-      category:
         "Frontend Project",
       title:
         "To Do List",
@@ -275,7 +253,7 @@ export const projects =
       link: "https://to-do-list-saumay.vercel.app/",
     },
     {
-      num: 3,
+      num: 2,
       category:
         "Frontend Project",
       title:
@@ -294,7 +272,7 @@ export const projects =
       link: "https://weather-app-saumay.vercel.app/",
     },
     {
-      num: 4,
+      num: 3,
       category:
         "Database Designing Project",
       title:
@@ -312,7 +290,7 @@ export const projects =
       link: "/PDF/Spotify-Data-Modeling.pdf",
     },
     {
-      num: 5,
+      num: 4,
       category:
         "Database Designing Project",
       title: `Netflix Database Modeling`,
@@ -330,7 +308,7 @@ export const projects =
       link: "/PDF/Netflix-Database-Modeling.pdf",
     },
     {
-      num: 6,
+      num: 5,
       category:
         "Data Mining and Warehousing Project",
       title:
