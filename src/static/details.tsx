@@ -75,7 +75,7 @@ export const data =
               company : "Humainority : Non Profit",
               position: "Founding Engineer",
               duration:"September 1st 2024 - May 15th 2025",
-              desctiption:[
+              description:[
                 "Spearheaded frontend development using Next.js, resulting in a 60% reduction in user application time.",
                 "Implemented CI/CD pipelines with AWS Lambda, reducing deployment time by 40% and enabling faster iterations.",
                 "Integrated OpenAI’s API to auto-generate tailored resumes and cover letters, tripling user engagement in testing.",
