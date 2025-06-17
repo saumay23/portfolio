@@ -259,6 +259,29 @@ export const projects =
     {
       num: 1,
       category:
+        "Full Stack Project",
+      title:
+        "JobsHush",
+      description:
+        "An AI-powered platform that helps job seekers optimize their resumes and generate cover letter based on the Job Description.",
+      stack:
+        [
+          "Next.js",
+          "Python",
+          "Tailwind CSS",
+          "ShadCN UI",
+          "AWS",
+          "Docker File"
+        ],
+      image:
+        "/Images/jobsHush.png",
+      isPDF:
+        false,
+      link: "https://jobshush.com/",
+    },
+    {
+      num: 2,
+      category:
         "Frontend Project",
       title:
         "To Do List",
@@ -277,7 +300,7 @@ export const projects =
       link: "https://to-do-list-saumay.vercel.app/",
     },
     {
-      num: 2,
+      num: 3,
       category:
         "Frontend Project",
       title:
@@ -296,7 +319,7 @@ export const projects =
       link: "https://weather-app-saumay.vercel.app/",
     },
     {
-      num: 3,
+      num: 4,
       category:
         "Database Designing Project",
       title:
@@ -314,7 +337,7 @@ export const projects =
       link: "/PDF/Spotify-Data-Modeling.pdf",
     },
     {
-      num: 4,
+      num: 5,
       category:
         "Database Designing Project",
       title: `Netflix Database Modeling`,
@@ -332,7 +355,7 @@ export const projects =
       link: "/PDF/Netflix-Database-Modeling.pdf",
     },
     {
-      num: 5,
+      num: 6,
       category:
         "Data Mining and Warehousing Project",
       title:
