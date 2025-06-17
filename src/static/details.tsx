@@ -12,6 +12,8 @@ import {
   SiExpress,
   SiReact,
   SiNextdotjs,
+  SiAwsamplify,
+  SiDocker,
 } from "react-icons/si";
 
 export const data =
@@ -47,7 +49,7 @@ export const data =
             fieldName:
               "Email",
             fieldValue:
-              "sk10882@nyu.edu",
+              "saumaykilla@gmail.com",
           },
           {
             fieldName:
@@ -59,7 +61,7 @@ export const data =
             fieldName:
               "Languages",
             fieldValue:
-              "English, Hindi",
+              "English",
           },
         ],
       },
@@ -70,18 +72,27 @@ export const data =
         items:
           [
             {
+              company : "Humainority : Non Profit",
+              position: "Founding Engineer",
+              duration:"September 1st 2024 - May 15th 2025",
+              desctiption:[
+                "Spearheaded frontend development using Next.js, resulting in a 60% reduction in user application time.",
+                "Implemented CI/CD pipelines with AWS Lambda, reducing deployment time by 40% and enabling faster iterations.",
+                "Integrated OpenAI’s API to auto-generate tailored resumes and cover letters, tripling user engagement in testing.",
+              ],
+            },
+            {
               company:
                 "Wiz Freight",
               position:
                 "Software Developer 1",
               duration:
-                "4TH APRIL 2022 - 1ST AUGUST 2023",
+                "April 4th APRIL 2022 - August 1st 2023",
               description:
                 [
-                  "Collaborated with designers and back-end developers, increasing project completion speed by 15%",
-                  "Contributed to documentation, boosting team productivity by 25%",
-                  "Integrated two new frontend tools/technologies per quarter",
-                  "Achieved a 98% sprint completion rate in Agile development.",
+                  "Developed responsive UIs in React, reducing front-end development time by 30%.",
+                  "Integrated backend APIs to deliver real-time freight tracking and live dashboards, significantly improving the user experience.",
+                  "Improved performance and accessibility across key pages, boosting Lighthouse scores by 20%.",
                 ],
             },
             {
@@ -90,13 +101,13 @@ export const data =
               position:
                 "Software Developer Intern",
               duration:
-                "1st August 2021 - 31st March 2022",
+                " August 1st 2021 - March 31st 2022",
               description:
                 [
-                  "Wrote and tested JavaScript code, reducing website load time by 25%",
-                  "Developed clean, maintainable, and scalable code, increasing development efficiency by 30%",
-                  "Tested and debugged web applications, resolving 95% of reported issues within 48 hours",
-                  "Created responsive design layouts using JavaScript, improving user engagement by 20%",
+                  "Trained machine learning models to predict invoice clearance dates more accurately, helping finance teams forecast payments up to 25% better.",
+                  "Automated client-specific file creation with Excel scripts, cutting down manual processing by around 40%",
+                  "Explored key data features that influenced payment behaviour, which sped up the model training process by nearly 15%.",
+                  "Worked closely with data engineers to streamline pipeline performance, bringing model run times down from hours to under 30 minutes.",
                 ],
             },
           ],
@@ -226,6 +237,19 @@ export const data =
               ),
               name: "Express",
             },
+            {
+              icon:(
+                <SiAwsamplify />
+                ),
+              name: "AWS Amplify",
+            },
+            {
+              icon:(
+                <SiDocker />
+                ),
+              name: "DockerFile",
+            },
+            
           ],
       },
   };
