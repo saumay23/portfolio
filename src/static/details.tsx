@@ -282,6 +282,27 @@ export const projects =
     {
       num: 2,
       category:
+        "Full Stack Project",
+      title:
+        "Document Processor",
+      description:
+        "An AI-powered application that parses sales order from PDF.",
+      stack:
+        [
+          "Next.js",
+          "Tailwind CSS",
+          "ShadCN UI",
+          "Supabase",
+        ],
+      image:
+        "/Images/docProcessor.png",
+      isPDF:
+        false,
+      link: "https://document-parser-super-base.vercel.app/",
+    },
+    {
+      num: 3,
+      category:
         "Frontend Project",
       title:
         "To Do List",
@@ -300,7 +321,7 @@ export const projects =
       link: "https://to-do-list-saumay.vercel.app/",
     },
     {
-      num: 3,
+      num: 4,
       category:
         "Frontend Project",
       title:
@@ -319,7 +340,7 @@ export const projects =
       link: "https://weather-app-saumay.vercel.app/",
     },
     {
-      num: 4,
+      num: 5,
       category:
         "Database Designing Project",
       title:
@@ -337,7 +358,7 @@ export const projects =
       link: "/PDF/Spotify-Data-Modeling.pdf",
     },
     {
-      num: 5,
+      num: 6,
       category:
         "Database Designing Project",
       title: `Netflix Database Modeling`,
@@ -355,7 +376,7 @@ export const projects =
       link: "/PDF/Netflix-Database-Modeling.pdf",
     },
     {
-      num: 6,
+      num: 7,
       category:
         "Data Mining and Warehousing Project",
       title:
