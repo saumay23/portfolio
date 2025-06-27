@@ -14,6 +14,7 @@ import {
   SiNextdotjs,
   SiAwsamplify,
   SiDocker,
+  SiSupabase,
 } from "react-icons/si";
 
 export const data =
@@ -160,46 +161,16 @@ export const data =
         skillList:
           [
             {
-              icon: (
-                <SiHtml5 />
-              ),
-              name: "HTML ",
+              icon:(
+                <SiAwsamplify />
+                ),
+              name: "AWS Amplify",
             },
             {
-              icon: (
-                <SiCss3 />
-              ),
-              name: "CSS ",
-            },
-            {
-              icon: (
-                <SiTailwindcss />
-              ),
-              name: "Tailwind CSS ",
-            },
-            {
-              icon: (
-                <SiJavascript />
-              ),
-              name: "JavaScript ",
-            },
-            {
-              icon: (
-                <SiTypescript />
-              ),
-              name: "TypeScript ",
-            },
-            {
-              icon: (
-                <SiMysql />
-              ),
-              name: "MySQL ",
-            },
-            {
-              icon: (
-                <SiNodedotjs />
-              ),
-              name: "Node.js ",
+              icon:(
+                <SiSupabase />
+                ),
+              name: "Supabase",
             },
             {
               icon: (
@@ -238,10 +209,46 @@ export const data =
               name: "Express",
             },
             {
-              icon:(
-                <SiAwsamplify />
-                ),
-              name: "AWS Amplify",
+              icon: (
+                <SiNodedotjs />
+              ),
+              name: "Node.js ",
+            },
+            {
+              icon: (
+                <SiTailwindcss />
+              ),
+              name: "Tailwind CSS ",
+            },
+            {
+              icon: (
+                <SiJavascript />
+              ),
+              name: "JavaScript ",
+            },
+            {
+              icon: (
+                <SiTypescript />
+              ),
+              name: "TypeScript ",
+            },
+            {
+              icon: (
+                <SiHtml5 />
+              ),
+              name: "HTML ",
+            },
+            {
+              icon: (
+                <SiCss3 />
+              ),
+              name: "CSS ",
+            },
+            {
+              icon: (
+                <SiMysql />
+              ),
+              name: "MySQL ",
             },
             {
               icon:(
